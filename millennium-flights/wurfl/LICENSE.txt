@@ -1,0 +1,71 @@
+
+License for WURFL Cloud Client
+
+This software is © ScientiaMobile and all rights are reserved. 
+Software is licensed for your personal use, only in compliance 
+with the conditions set out in this license and solely for 
+connecting with certain services rendered by ScientiaMobile 
+under the name of WURFL Cloud, and with the several ones if any that 
+from time to time will be listed at http://www.scientiamobile.com/cloud. 
+
+License is subject the execution of the WURFL Cloud License Agreement and 
+the conditions therein are incorporated herewith. No other use is allowed 
+unless explicitly authorized in writing by ScientiaMobile.
+
+License is personal, conditioned, non-transferable, limited to the version 
+received and does not allow making derivative works even when 
+the source code is provided or the language is an interpreted one and regardless 
+whether the code is not obfuscated. By way of clarification “derivatives” 
+within the working of this license does not extend to linking an unmodified 
+instance of software lawfully obtained from ScientiaMobile with any other 
+software however licensed, no further permission is required for 
+this limited scope (linking exception).
+
+The software could contain, rely upon, depend on, interact with, link to 
+Free and Open Source Software (“FOSS”), Insofar as said FOSS is concerned 
+and where locally specified, the terms of the FOSS license prevail. 
+If You or any third party find any inconsistency, lack of clarity, or any 
+contradiction to the applicable FOSS license, and/or if You or any third party 
+want to exercise your or its rights under it, you or said party is invited to 
+write to FOSS-compliance@scientiamobile.com
+
+License will be terminated at the sole option of ScientiaMobile if You or 
+anybody on your behalf or under your control or solicitation will start or 
+threaten to start litigation against ScientiaMobile or any of its affiliates 
+and distributors for causes of action involving any ScientiaMobile software 
+or services, or if the WURFL Cloud License Agreement is terminated for 
+whichever reason or cause.
+
+SOFTWARE IS PROVIDED "AS IS" AND “AS AVAILABLE.”  ALL EXPRESS OR IMPLIED 
+CONDITIONS, REPRESENTATIONS, AND WARRANTIES INCLUDING, WITHOUT LIMITATION, 
+ANY IMPLIED WARRANTY OR CONDITION OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE, NON-INFRINGEMENT, SATISFACTORY QUALITY, NON-INTERFERENCE, ACCURACY 
+OF INFORMATIONAL CONTENT, OR ARISING FROM A COURSE OF DEALING, LAW, USAGE, 
+OR TRADE PRACTICE, ARE HEREBY EXCLUDED.  IN PARTICULAR, WE DO NOT REPRESENT 
+OR WARRANT TO YOU THAT YOUR USE OF THE SERVICES WILL MEET YOUR REQUIREMENTS, 
+YOUR USE OF THE SERVICES WILL BE UNINTERRUPTED, TIMELY, SECURE OR FREE FROM 
+ERROR, OR THAT DEFECTS IN THE OPERATION OR FUNCTIONALITY OF THE SERVICES OR 
+ANY SOFTWARE PROVIDED TO YOU AS PART OF THE SERVICES WILL BE CORRECTED.
+LIMITATION OF LIABILITY. YOU EXPRESSLY UNDERSTAND AND AGREE THAT WE SHALL 
+NOT BE LIABLE TO YOU FOR: (A) ANY INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL 
+OR EXEMPLARY DAMAGES WHICH MAY BE INCURRED BY YOU, HOWEVER CAUSED AND UNDER 
+ANY THEORY OF LIABILITY, INCLUDING, BUT NOT BE LIMITED TO, ANY LOSS OF PROFIT 
+(WHETHER INCURRED DIRECTLY OR INDIRECTLY), ANY LOSS OF GOODWILL OR BUSINESS 
+REPUTATION, ANY LOSS OF DATA SUFFERED, COST OF PROCUREMENT OF SUBSTITUTE 
+GOODS OR SERVICES, OR OTHER INTANGIBLE LOSS; (B) ANY DIRECT LOSS OR DAMAGE 
+WHICH MAY BE INCURRED BY YOU IN EXCESS OF THE AMOUNT YOU PAID FOR THE SERVICE 
+IN THE CONTRACT MONTH IN WHICH THE LOSS OR DAMAGE WAS INCURRED (OR IN THE 
+CASE OF A FREE ACCOUNT TEN DOLLARS).  THE LIMITATIONS ON OUR LIABILITY TO 
+YOU IN THIS AGREEMENT SHALL APPLY WHETHER OR NOT WE HAVE BEEN ADVISED OF 
+OR SHOULD HAVE BEEN AWARE OF THE POSSIBILITY OF ANY SUCH LOSSES ARISING.
+Should you need to verify the working of the software for ensuring that 
+the same is adequate to your use, does not contain dangerous or malicious 
+code or is sufficiently hardened, as well in order to submit patches 
+and/or bug fixes, and in order to perform said activities you need a 
+copy of the corresponding source code that is not already readily available, 
+you are invited to contact ScientiaMobile and ask for a copy under a separate 
+agreement, which will be negotiated in good faith.
+
+The laws of the Commonwealth of Virginia apply to this license.
+
+

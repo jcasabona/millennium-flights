@@ -1,0 +1,566 @@
+/*
+Theme Name: Milennium Flights
+Theme URI: http://www.milenniumflights.com
+Description: A custom theme for Melennium Flights, Inc.
+Version: 1.0
+Author: Joe Casabona
+Author URI: http://www.casabona.org
+Tags: blue, white, two-column, flexible-width
+*/
+
+/**Normalize.css**/
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;overflow-y:scroll;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}body{margin:0}body,button,input,select,textarea{font-family:sans-serif}a{color:#00e}a:visited{color:#551a8b}a:focus{outline:thin dotted}a:hover,a:active{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}ul,ol{margin:1em 0;padding:0 0 0 40px}dd{margin:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/** The Crux of the Matter **/
+
+body{
+	background: #313C66;
+	font-family: "Open Sans Condensed", Helvetica, sans-serif;
+	font-size: 62.5%;
+	text-align: center;
+	color: #FFFFFF;
+	}
+	
+a, a:visited{
+	color: #FFEB73;
+	text-decoration: none;
+	}
+	
+a:hover{
+	color: #8E6DD7;
+	}
+	
+address{
+	font-style: normal;
+	font-size: 1.5em;
+	margin-left: 0.5%;
+	}
+	
+aside .widget h3{
+	margin-top: 0px;
+	color: #8E6DD7;
+	}
+	
+aside .widget{
+	border-bottom: 2px solid #FFFFFF;
+	margin: 10px 1.5%;
+	text-align: left;
+	padding: 5px 0.4%;
+	}
+
+aside .widget p, aside .widget ul, 
+aside .widget ol, aside .widget dl{
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	}
+	
+aside .widget li{
+	padding: 0;
+	margin: 0 0 0 1em;
+	list-style-type: none;
+	}
+		
+input,select,input, textarea{
+	margin: 0.4em;
+	padding: 0.5em;
+	font-size: 1.3em;
+	border: 1px solid #CFCFCF;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	}
+	
+form#commentform textarea{
+	max-height: 150px;	
+	max-width: 95%;	
+	}
+	
+form#commentform label{
+	font-size: 1.25em;
+	}
+	
+	
+footer{
+	color: #FFFFFF;
+	}
+	
+footer a{
+	color: #f1ffdc;
+	}
+	
+footer a:hover{
+	color: #CFCFCF;
+	}
+	
+h1,h2,h3{
+	font-family: Futura, sans-serif;
+	margin: 0.5%;
+	color: #61B7CF;
+	}
+	
+	
+img,object,wmbed,video{
+	max-width: 100%;
+	height: auto;
+	}
+	
+h1{ font-size: 2.5em; }
+h2{ font-size: 2.25em; }
+h3{ font-size: 2em; }
+p,li,dd{ font-size: 1.25em;}
+
+
+ol.commentlist{
+	margin-left: 0;
+	padding-left: 0;
+	}
+	
+ol.commentlist li{
+	padding: 1em;
+	list-style-type: none;
+	border-bottom: 2px solid #FFFFFF;
+	}
+	
+ol.commentlist li ul{
+	margin: 0;
+	padding: 0;
+	}
+	
+ol.commentlist li li{
+	border-bottom: 0;
+	border-left: 3px solid #77A4AE;
+	font-size: 1em;
+	}
+	
+ol.commentlist li .vcard img{
+	float: left;
+	padding-right: 0.4em;
+	max-width: 90%;
+	}
+	
+ol.commentlist li.bypostauthor{
+	background: #FFFFFF;
+	color: #313C66;
+	}
+	
+ol.commentlist li.bypostauthor a{
+	color: #624A14;
+	}
+	
+
+ul.wp-tag-cloud{
+	margin: 0;
+	padding: 0.3em;
+	}
+	
+ul.wp-tag-cloud li{
+	list-style-type: none;
+	}
+	
+ul.wp-tag-cloud li a{
+	display: block;
+	padding: 0.4em;
+	margin: 0.3em 0;
+	position: absolute;
+	}	
+	
+
+progress, progress[role] {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		appearance: none;
+		border: none;
+		background: #FFFFFF;
+		background-size: auto;
+		width: 100%;
+		height: 4em;
+	}
+
+	/* Progress bar background */
+	progress::-webkit-progress-bar {
+		background: #FFFFFF;
+	}
+
+	/* Progress bar value */
+	progress::-moz-progress-bar {
+		background: #00FFFF;
+	}
+	
+	progress::-webkit-progress-value {
+			background: #00FFFF;
+		}
+
+	
+.center{
+	text-align: center;
+	}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 98%;
+	font-size: 1.4em;
+	padding: 15px 5%;
+	}
+	
+header h1 img{
+		max-width: 20%;
+		display: block;
+		float: left;
+		}
+	
+header nav#main{
+		border-top: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		font-size: 2em;
+		margin-bottom: 10px;
+		}
+	header nav#main ul, header nav#main ul li{
+		display: inline;
+		margin: 0;
+		}
+	header nav#main ul li a{
+		padding: 10px 5%;
+		color: #FFFFFF;
+		}
+
+
+#top-menu ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  list-style: none;
+}
+
+#top-menu li {
+  width: 100%;
+}
+
+.js #top-menu {
+  clip: rect(0 0 0 0);
+  max-height: 0;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  zoom: 1;
+}
+
+nav.opened {
+  max-height: 9999px;
+}
+
+
+	
+#content{
+	text-align: left;
+	}
+	
+.post{
+	padding: 1em;
+	background: #FFFFFF;
+	color: #000000;
+	margin: 0.7em 0;
+	}
+	
+.post a, .post a:visited{
+	color: #A67400;
+	}
+	
+.post a:hover{
+	color: #FFD573;
+	}
+	
+	
+ul.compact-archives{
+	margin: 0.7em;
+	padding: 0;
+	}	
+	
+ul.compact-archives li{
+	list-style-type: none;
+	line-height: 2em;
+	margin: 0.6em;
+	}
+	
+ul.compact-archives li strong{
+	font-weight: bold;
+	display: block;
+	border-bottom: 1px solid #999999;
+	}
+	
+ul.compact-archives li a, ul.compact-archives li span{
+	font-size: 1.7em;
+	padding: 0 0.2em;
+	}
+	
+ul.compact-archives li span.emptymonth{
+	color: #CFCFCF;
+	}
+	
+.Flexible-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+	}
+
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+
+.wp-caption, .alignleft, img.alignleft, .alignright, img.alignright, .aligncenter,div.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+	}
+
+.wp-caption, .aligncenter{
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 0.4em;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+	}
+
+.wp-caption p.wp-caption-text {
+	font-size: 0.85em;
+	line-height: 1.1em;
+	padding: 0 0.4em 0.4em;
+	margin: 0;
+	color: #333333;
+	}
+	
+/* self-clear floats */
+
+.group:after {
+	content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+	}
+
+.clear{
+	clear: both;
+	}
+	
+@media screen and (min-width: 34.188em){
+
+	.js #top-menu {
+		position: relative;
+		}
+	.js #top-menu {
+		max-height: none;
+		}
+	#nav-toggle {
+		display: none;
+		}
+		
+		
+	ul.compact-archives li strong{
+		display: inline;
+		border: 0;
+		}
+		
+	ul.compact-archives li a, ul.compact-archives li span{
+		font-size: 1.5em;
+		}
+		
+	footer aside .widget{
+		width: 46%;
+		margin: 10px 1.2%;
+		float: left;
+		text-align: left;
+		}
+
+	#searchform input[type=text]{
+		width: 60%;
+		}
+
+	.aligncenter, div.aligncenter {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+	.alignleft, img.alignleft{
+		float: left;
+		max-width: 40%;
+		text-align: left;
+		margin: 0 1% 0 0;
+		}
+		
+	.alignright, img.alignright{
+		float: right;
+		max-width: 40%;
+		text-align: right;
+		margin-left: 0 0 0 1%;
+		}
+
+	.wp-caption, img.alignleft, img.alignright, .aligncenter{
+		border: 1px solid #ddd;
+		text-align: center;
+		background-color: #f3f3f3;
+		padding-top: 4px;
+		}
+
+	.wp-caption img {
+		margin: 0;
+		padding: 0;
+		border: 0 none;
+		}
+
+	.wp-caption p.wp-caption-text {
+		font-size: 0.85em;
+		line-height: 1.1em;
+		padding: 0 0.4em 0.4em;
+		margin: 0;
+		}	
+}
+
+@media screen and (min-width: 40.625em){
+	header h1{
+		font-size: 4em;
+		margin: 0;
+		}
+	header h1 img{
+		max-width: 10%;
+		display: inline;
+		float: none;
+		}
+		
+	header nav#main{
+		border-top: 1px solid #FFFFFF;
+		border-bottom: 1px solid #FFFFFF;
+		font-size: 2em;
+		}
+	header nav#main ul, header nav#main ul li{
+		display: inline;
+		margin: 0;
+		}
+	header nav#main ul li a{
+		padding: 10px 5%;
+		color: #FFFFFF;
+		}
+		
+	#wrapper #content{
+		margin-top: 5px;
+		text-align: left;
+		}
+		
+	#wrapper #content .impact img{
+		max-width: 55%;
+		margin: 0.5%;
+		float: left;
+		overflow: hidden;
+		}
+	#wrapper #content .impact h2{
+		font-size: 5.2em;
+		color: #FFD573;
+		margin: 0.5% 0.25%;
+		padding-top: 20px;
+		}
+		
+	#wrapper #content .entry{
+		float: left;
+		width: 66%;
+		}
+		
+	#wrapper #content aside{
+		margin-left: 68%;
+		width: 30%;
+		}
+		
+
+	aside .widget{
+		float: none;
+		}
+			
+	aside .widget input[type=submit]{
+		margin: 0 auto;
+		padding: 3px;
+		font-size: 1.25em;
+		width: 40%;
+	}
+	
+	ul.compact-archives li a, ul.compact-archives li span{
+		font-size: 1.25em;
+		}
+		
+	
+	footer{ 	
+		border-top: 1px solid #FFFFFF;
+		}
+		
+	.alignleft, img.alignleft{
+		float: left;
+		max-width: 35%;
+		text-align: left;
+		margin: 0 0.5% 0 0;
+		}
+		
+	.alignright, img.alignright{
+		float: right;
+		max-width: 35%;
+		text-align: right;
+		margin-left: 0 0 0 0.5%;
+		}
+	}
+	
+@media screen and (min-width: 51em){
+	footer aside .widget{
+		width: 30%;
+		margin: 10px 1.2%;
+		float: left;
+		text-align: left;
+		}
+		
+	#commentsection{
+		max-width: 70%;
+		}
+				
+	ol.commentlist li ul{
+		margin-left: 2em;
+		}
+		
+	.date-archives{
+		width: 58%;
+		float: left;
+		margin: 0 0.6em 0 0;
+		}
+		
+	.tag-archives{
+		width: 39%;
+		float: right;
+		margin: 0 0 0 0.6em;
+		}
+}
+
+@media screen and (min-width: 55.652em){
+	#wrapper #content .entry{
+		float: left;
+		width: 75%;
+		}
+		
+	#wrapper #content aside{
+		margin-left: 78%;
+		width: 22%;
+		}
+		
+		
+	}
