@@ -1,0 +1,33 @@
+.gallery{
+  margin: 0 auto;
+  text-align: center;
+  }
+
+.gallery img{
+  max-width: 100%;
+  }
+
+.gallery-icon img{
+  border: 1px solid #CCCCCC;
+  background: #FFFFFF;
+  padding: 5px;
+  }
+@media screen and (min-width: 25.313em){
+  .gallery-icon{
+    float: left;
+    margin: 10px 2%;
+    width: 45%;
+    }
+}
+@media screen and (min-width: 51.5em){
+  .gallery-icon{
+    width: 30%;
+    margin: 10px 1%;
+    }
+  }
+
+@media screen and (min-width: 76.625em){
+  .gallery-icon{
+    width: 22%;
+    }
+  }

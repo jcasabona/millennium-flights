@@ -1,0 +1,82 @@
+.wpcf7 form{
+  text-align: left;
+  font-size: 1.25em;
+  max-width: 95%;
+  }
+
+.wpcf7 form div{
+  margin: 15px 0;
+  text-align: left;
+  }
+
+.wpcf7 form div label{
+  text-align: left;
+  max-width: 98%;
+  display: block;
+  font-size: 1.4em;
+  font-weight: bold;
+  }
+
+.wpcf7 form div input, .wpcf7 form div select, .wpcf7 form div textarea{
+  padding: 5px;
+  width: 95%;
+  }
+
+.wpcf7 form div input[type='checkbox'], .wpcf7 form div input[type='radio']{
+  width: auto;
+  }
+
+.wpcf7 form div textarea{
+  height: 150px;
+  }
+
+.wpcf7 form div input[type="submit"]{
+  width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  background: -webkit-linear-gradient(#b5b5b5 0%, #eeeded 100%);
+  background: -webkit-linear-gradient(#b5b5b5, #eeeded);
+  background: linear-gradient(#b5b5b5, #eeeded);
+  border: 1px solid #999999;
+  }
+
+.wpcf7 form div input[type="submit"]:hover{
+  border: 1px solid #CFCFCF;
+  }
+@media screen and (min-width: 40.688em){
+  .wpcf7 form{
+    margin: 10px auto;
+    width: 80%;
+    }
+
+  .wpcf7 form div{
+    padding: 10px 0;
+    clear: left;
+    }
+
+  .wpcf7 form .wpcf7-list-item{
+    width: 48%;
+    float: left;
+    margin: 10px 0;
+    }
+
+  .wpcf7 form div label{
+    font-size: 1em;
+    font-weight: normal;
+    }
+
+  .wpcf7 form div input, .wpcf7 form div select, .wpcf7 form div textarea{
+    width: 55%;
+    margin-left: 2%;
+    }
+
+  .wpcf7 form div input[type='checkbox'], .wpcf7 form div input[type='radio']{
+    width: auto;
+    }
+
+  .wpcf7 form div input[type="submit"]{
+    width: 50%;
+    margin: 0 2%;
+    }
+}
