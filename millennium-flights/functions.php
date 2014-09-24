@@ -102,7 +102,7 @@ function mf_scripts() {
 	echo '<!--[if lt IE 9]>';
 	echo '<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>';
 	echo '<script src="'. TEMPPATH .'/js/respond.min.js"></script>';
-	echo '![endif]-->';
+	echo '<![endif]-->';
 
 }
 
