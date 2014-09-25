@@ -16,7 +16,8 @@
 					<div class="select-menu">
 		<?php
 			wp_nav_menu(array(
-				'menu' => 'Main'
+				'menu' => 'Main',
+				'container_id' => 'top-menu'
 				)
 			);
 		?>
